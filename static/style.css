@@ -1,0 +1,100 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Fondo suave */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #34495e;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+form input:focus {
+    border-color: #3498db; /* Cambio de borde cuando el campo está enfocado */
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db; /* Fondo azul */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #2980b9; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilo para la lista de estudiantes */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+li:hover {
+    background-color: #f1f1f1; /* Efecto hover */
+}
+
+li span {
+    font-weight: bold;
+    color: #2ecc71; /* Color verde para la edad */
+}
+
